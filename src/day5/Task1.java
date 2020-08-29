@@ -16,9 +16,9 @@ public class Task1 {
 
 
 class Car {
-  int year;
-  String color;
-  String model;
+  private int year;
+  private String color;
+  private String model;
 
   public void setYear(int year) {
     this.year = year;
