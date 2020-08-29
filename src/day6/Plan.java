@@ -27,47 +27,15 @@ public class Plan {
             ", длина: " + length +  ", вес: " + weight + ", объем топлива в баке: " + volumeFuel);
   }
   public int fillUp (int volume) {
-    volumeFuel = volume;
+    volumeFuel = volumeFuel + volume;
     return volumeFuel;
-  }
-
-  public String getMaker() {
-    return maker;
-  }
-
-  public void setMaker(String maker) {
-    this.maker = maker;
-  }
-
-  public int getYear() {
-    return year;
   }
 
   public void setYear(int year) {
     this.year = year;
   }
-
-  public int getLength() {
-    return length;
-  }
-
   public void setLength(int length) {
     this.length = length;
   }
 
-  public int getWeight() {
-    return weight;
-  }
-
-  public void setWeight(int weight) {
-    this.weight = weight;
-  }
-
-  public int getVolumeFuel() {
-    return volumeFuel;
-  }
-
-  public void setVolumeFuel(int volumeFuel) {
-    this.volumeFuel = volumeFuel;
-  }
 }
